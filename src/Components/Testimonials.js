@@ -38,6 +38,7 @@ const Testimonials = (props) => {
   return (
     <div  className='w-[85vw] md:w-[700px] bg-white rounded flex flex-col justify-center items-center mt-10 p-10 transition-all duration-700 drop-shadow-md hover:shadow-xl '>
       <Card review = {reviews[index]}></Card>
+      {/* buttonss */}
       <div className="flex text-violet-400 mt-5 text-5xl font-bold mx-auto">
         <button className="cursor-pointer hover:text-violet-500" onClick={leftShiftHandler}>
           <BiSolidChevronLeftCircle />
